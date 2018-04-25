@@ -1,5 +1,8 @@
 " plugins
 call plug#begin('~/.config/nvim/plugged')
+" autocomplete
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+
 " languages
 Plug 'tpope/vim-rails'
 Plug 'pangloss/vim-javascript'

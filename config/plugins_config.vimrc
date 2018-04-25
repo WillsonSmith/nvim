@@ -10,3 +10,4 @@ colorscheme blue-mood
 let g:airline_theme = 'deus'
 
 let g:indent_guides_enabled_on_vim_startup = 1
+let g:deoplete#enable_at_startup = 1
