@@ -18,7 +18,7 @@ set norelativenumber
 set number
 
 " whitespace
-set listchars=eol:¬,tab:>·,trail:•,extends:>,precedes:<,space:•
+set listchars=eol:¬,tab:>·,trail:·,extends:>,precedes:<,space:·
 set list
 
 " no backups
