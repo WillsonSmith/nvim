@@ -3,6 +3,9 @@ call plug#begin('~/.config/nvim/plugged')
 " autocomplete
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
+" linting
+Plug 'w0rp/ale'
+
 " languages
 Plug 'tpope/vim-rails'
 
