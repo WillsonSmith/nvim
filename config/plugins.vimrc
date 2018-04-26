@@ -19,6 +19,10 @@ Plug 'mxw/vim-jsx'
 
 Plug 'elixir-editors/vim-elixir'
 
+" syntax aids
+"auto-add ending tags
+Plug 'tpope/vim-endwise'
+
 " theme
 Plug 'soft-aesthetic/soft-era-vim'
 Plug 'lmintmate/blue-mood-vim'
