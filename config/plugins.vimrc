@@ -32,6 +32,7 @@ Plug 'vim-airline/vim-airline-themes'
 
 " search
 Plug '/usr/local/opt/fzf'
+Plug 'mileszs/ack.vim'
 
 " comments
 Plug 'tpope/vim-commentary'
