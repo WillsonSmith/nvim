@@ -9,6 +9,9 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set expandtab
+set ruler
+set autoindent
+set smartindent
 
 " line numbers
 set norelativenumber

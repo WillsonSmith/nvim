@@ -5,10 +5,15 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
 " languages
 Plug 'tpope/vim-rails'
+
+Plug 'JulesWang/css.vim'
+Plug 'cakebaker/scss-syntax.vim'
+
 Plug 'pangloss/vim-javascript'
 Plug 'jelera/vim-javascript-syntax'
 Plug 'moll/vim-node'
 Plug 'mxw/vim-jsx'
+
 Plug 'elixir-editors/vim-elixir'
 
 " theme
