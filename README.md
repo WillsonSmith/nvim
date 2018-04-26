@@ -6,5 +6,5 @@
   * pip3 install nvim
 2. Install fzf
   * brew install fzf
-2. launch vim
+3. launch vim
   * a script in the init should set up the plugins automagically
