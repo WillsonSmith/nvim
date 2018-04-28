@@ -45,4 +45,3 @@ nnoremap <leader>P "+P
 vnoremap <leader>p "+p
 vnoremap <leader>P "+P
 
-let g:airline#extensions#tabline#enabled = 1
