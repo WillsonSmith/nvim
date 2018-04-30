@@ -8,6 +8,6 @@
   * pip2 install neovim
 3. Install dependencies
   * brew install fzf
-  * brew install rg
+  * brew install ripgrep
 4. launch vim
   * a script in the init should set up the plugins automagically
