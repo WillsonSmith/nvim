@@ -22,6 +22,7 @@ Plug 'elixir-editors/vim-elixir'
 " syntax aids
 "auto-add ending tags
 Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-surround'
 
 " theme
 Plug 'soft-aesthetic/soft-era-vim'
@@ -39,5 +40,6 @@ Plug 'tpope/vim-commentary'
 
 " gutter lines
 Plug 'nathanaelkane/vim-indent-guides'
+Plug 'airblade/vim-gitgutter'
 
 call plug#end()

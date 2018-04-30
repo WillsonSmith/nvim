@@ -4,6 +4,8 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
+set shell=/usr/local/bin/fish
+
 " tab settings
 set tabstop=2
 set shiftwidth=2
@@ -30,6 +32,8 @@ set laststatus=2
 set noshowmode
 set noshowcmd
 
+" misc
+set updatetime=100
 
 " commands
 map leader key
