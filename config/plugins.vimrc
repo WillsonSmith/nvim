@@ -39,5 +39,6 @@ Plug 'tpope/vim-commentary'
 
 " gutter lines
 Plug 'nathanaelkane/vim-indent-guides'
+Plug 'airblade/vim-gitgutter'
 
 call plug#end()
