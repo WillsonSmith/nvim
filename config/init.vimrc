@@ -31,6 +31,9 @@ set noshowmode
 set noshowcmd
 
 
+" misc
+set updatetime=100
+
 " commands
 map leader key
 let g:mapleader = ","
