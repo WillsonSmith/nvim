@@ -23,4 +23,6 @@ let g:airline#extensions#ale#enabled = 1
 let g:airline#extensions#tabline#enabled = 1
 
 let g:ackprg = 'rg --vimgrep --smart-case --glob "!node_modules/**" --glob "!package-lock.json"'
+" -truby for search ruby files only
+"  rg --type-list
 map <leader>g :Ack -F ""<Left>
