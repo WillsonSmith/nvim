@@ -33,6 +33,8 @@ Plug 'vim-airline/vim-airline-themes'
 
 " search
 Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf.vim'
+
 Plug 'mileszs/ack.vim'
 
 " comments
