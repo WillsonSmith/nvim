@@ -26,3 +26,8 @@ let g:ackprg = 'rg --vimgrep --smart-case --glob "!node_modules/**" --glob "!pac
 " -truby for search ruby files only
 "  rg --type-list
 map <leader>g :Ack -F ""<Left>
+
+" fzf config
+let g:fzf_command_prefix = 'Fzf'
+map <c-p> :FZF<Enter>
+map <leader>b :FzfBuffers<Enter>

@@ -17,6 +17,8 @@ Plug 'jelera/vim-javascript-syntax'
 Plug 'moll/vim-node'
 Plug 'mxw/vim-jsx'
 
+Plug 'leafgarland/typescript-vim'
+
 Plug 'elixir-editors/vim-elixir'
 
 " syntax aids
@@ -33,6 +35,8 @@ Plug 'vim-airline/vim-airline-themes'
 
 " search
 Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf.vim'
+
 Plug 'mileszs/ack.vim'
 
 " comments
