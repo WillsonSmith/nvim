@@ -28,6 +28,11 @@ set nobackup
 set nowb
 set noswapfile
 
+" undo
+set undodir=~/.config/nvim/temp/undodir
+set undofile
+
+" hide bottom bar, let airline handle this
 set laststatus=2
 set noshowmode
 set noshowcmd
