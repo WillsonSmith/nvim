@@ -17,6 +17,8 @@ Plug 'jelera/vim-javascript-syntax'
 Plug 'moll/vim-node'
 Plug 'mxw/vim-jsx'
 
+Plug 'leafgarland/typescript-vim'
+
 Plug 'elixir-editors/vim-elixir'
 
 " syntax aids
