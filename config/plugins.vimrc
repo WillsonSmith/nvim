@@ -21,7 +21,7 @@ Plug 'leafgarland/typescript-vim'
 
 Plug 'elixir-editors/vim-elixir'
 
-" syntax aids
+" syntax aides
 "auto-add ending tags
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-surround'

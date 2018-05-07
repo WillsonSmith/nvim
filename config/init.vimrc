@@ -32,6 +32,9 @@ set noswapfile
 set undodir=~/.config/nvim/temp/undodir
 set undofile
 
+" reload on change
+set autoread
+
 " hide bottom bar, let airline handle this
 set laststatus=2
 set noshowmode
@@ -41,7 +44,7 @@ set noshowcmd
 set updatetime=100
 
 " commands
-map leader key
+" map leader key
 let g:mapleader = ","
 " Copy to clipboard
 vnoremap  <leader>y "+y
