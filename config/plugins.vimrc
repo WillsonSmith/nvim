@@ -19,6 +19,8 @@ Plug 'mxw/vim-jsx'
 
 Plug 'leafgarland/typescript-vim'
 
+Plug 'kchmck/vim-coffee-script'
+
 Plug 'elixir-editors/vim-elixir'
 
 " syntax aides
