@@ -19,6 +19,9 @@ Plug 'mxw/vim-jsx'
 
 Plug 'leafgarland/typescript-vim'
 
+" graphql
+Plug 'jparise/vim-graphql'
+
 Plug 'kchmck/vim-coffee-script'
 
 Plug 'elixir-editors/vim-elixir'
