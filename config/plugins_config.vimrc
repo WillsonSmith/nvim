@@ -5,8 +5,8 @@ endif
 syntax enable
 " colorscheme soft-era
 colorscheme gruvbox
-let g:gruvbox_contrast_dark = 'dark'
-" let g:airline_theme = 'softera'
+let g:gruvbox_contrast_dark = 'hard'
+set background=dark    " Setting dark mode
 let g:airline_theme = 'deus'
 
 let g:indent_guides_enabled_on_vim_startup = 1
