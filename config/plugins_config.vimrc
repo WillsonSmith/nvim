@@ -4,8 +4,8 @@ endif
 
 syntax enable
 " colorscheme soft-era
-colorscheme blue-mood
-
+colorscheme gruvbox
+let g:gruvbox_contrast_dark = 'dark'
 " let g:airline_theme = 'softera'
 let g:airline_theme = 'deus'
 

@@ -34,6 +34,8 @@ Plug 'tpope/vim-surround'
 " theme
 Plug 'soft-aesthetic/soft-era-vim'
 Plug 'lmintmate/blue-mood-vim'
+Plug 'aradunovic/perun.vim'
+Plug 'morhetz/gruvbox'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
