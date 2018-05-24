@@ -7,9 +7,23 @@ syntax enable
 colorscheme gruvbox
 let g:gruvbox_contrast_dark = 'hard'
 set background=dark    " Setting dark mode
+
 let g:airline_theme = 'deus'
 
 let g:indent_guides_enabled_on_vim_startup = 1
+
+"syntax
+" Automatically start language servers.
+let g:LanguageClient_autoStart = 1
+" Minimal LSP configuration for JavaScript
+let g:LanguageClient_serverCommands = {}
+if executable('javascript-typescript-stdio')
+  let g:LanguageClient_serverCommands.javascript = ['javascript-typescript-stdio']
+else
+  echo "javascript-typescript-stdio not installed!\n"
+  :cq
+endif
+let g:jsx_ext_required = 0
 
 " autocomplete
 let g:deoplete#enable_at_startup = 1

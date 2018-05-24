@@ -7,15 +7,19 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'w0rp/ale'
 
 " languages
+" LanguageClient plugin
+Plug 'autozimu/LanguageClient-neovim', { 'do': ':UpdateRemotePlugins' }
+
 Plug 'tpope/vim-rails'
 
 Plug 'JulesWang/css.vim'
 Plug 'cakebaker/scss-syntax.vim'
 
-Plug 'pangloss/vim-javascript'
-Plug 'jelera/vim-javascript-syntax'
-Plug 'moll/vim-node'
+"Plug 'pangloss/vim-javascript'
+Plug 'othree/yajs.vim'
+Plug 'othree/es.next.syntax.vim'
 Plug 'mxw/vim-jsx'
+Plug 'moll/vim-node'
 
 Plug 'leafgarland/typescript-vim'
 
@@ -36,6 +40,8 @@ Plug 'soft-aesthetic/soft-era-vim'
 Plug 'lmintmate/blue-mood-vim'
 Plug 'aradunovic/perun.vim'
 Plug 'morhetz/gruvbox'
+Plug 'kadekillary/Turtles'
+Plug 'hzchirs/vim-material'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
