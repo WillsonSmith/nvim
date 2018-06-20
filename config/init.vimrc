@@ -57,3 +57,6 @@ nnoremap <leader>P "+P
 vnoremap <leader>p "+p
 vnoremap <leader>P "+P
 
+" delete without copying
+vnoremap d "_d
+nnoremap dd "_dd

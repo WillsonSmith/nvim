@@ -10,6 +10,7 @@ Plug 'w0rp/ale'
 " LanguageClient plugin
 Plug 'autozimu/LanguageClient-neovim', { 'do': ':UpdateRemotePlugins' }
 
+Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-rails'
 
 Plug 'JulesWang/css.vim'
