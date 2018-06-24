@@ -8,7 +8,7 @@ Plug 'w0rp/ale'
 
 " languages
 " LanguageClient plugin
-Plug 'autozimu/LanguageClient-neovim', { 'do': ':UpdateRemotePlugins' }
+Plug 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.sh', }
 
 Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-rails'
@@ -23,6 +23,9 @@ Plug 'mxw/vim-jsx'
 Plug 'moll/vim-node'
 
 Plug 'leafgarland/typescript-vim'
+
+" crystal
+Plug 'rhysd/vim-crystal'
 
 " graphql
 Plug 'jparise/vim-graphql'
