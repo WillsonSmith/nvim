@@ -47,3 +47,4 @@ map <leader>g :Ack -F ""<Left>
 let g:fzf_command_prefix = 'Fzf'
 map <c-p> :FZF<Enter>
 map <leader>b :FzfBuffers<Enter>
+map <leader>h :FzfHistory<Enter>
