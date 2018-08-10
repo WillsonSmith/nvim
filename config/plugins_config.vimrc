@@ -45,13 +45,12 @@ let g:ackprg = 'rg --vimgrep --smart-case --glob "!node_modules/**" --glob "!pac
 map <leader>g :Ack -F ""<Left>
 
 " fzf config
-let g:rg_command = 'rg --column --glob "!node_modules/**" --glob "!.git/*" --line-number --no-heading --color=always '
-command! -bang -nargs=? -complete=dir Files
-  \ call fzf#vim#files(<q-args>, fzf#vim#with_preview(), <bang>0)
+"command! -bang -nargs=? -complete=dir Files
+"  \ call fzf#vim#files(<q-args>, fzf#vim#with_preview(), <bang>0)
 
 let $FZF_DEFAULT_COMMAND = 'rg --files --no-ignore --hidden --follow --glob "!.git/*" --glob "!node_modules/**" '
 let g:fzf_command_prefix = 'Fzf'
 "map <c-p> :FZF<Enter>
-map <c-p> :Files<Enter>
+map <c-p> :FzfFiles<Enter>
 map <leader>b :FzfBuffers<Enter>
 map <leader>h :FzfHistory<Enter>
