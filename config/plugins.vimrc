@@ -8,7 +8,8 @@ Plug 'w0rp/ale'
 
 " languages
 " LanguageClient plugin
-Plug 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.sh', }
+"Plug 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.sh', }
+Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
 
 Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-rails'
@@ -22,8 +23,8 @@ Plug 'othree/es.next.syntax.vim'
 Plug 'mxw/vim-jsx'
 Plug 'moll/vim-node'
 
-Plug 'leafgarland/typescript-vim'
-
+"Plug 'leafgarland/typescript-vim'
+Plug 'HerringtonDarkholme/yats.vim'
 " crystal
 Plug 'rhysd/vim-crystal'
 
