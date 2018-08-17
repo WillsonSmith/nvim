@@ -8,8 +8,8 @@ Plug 'w0rp/ale'
 
 " languages
 " LanguageClient plugin
-"Plug 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.sh', }
-Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
+Plug 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.sh', }
+"Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
 
 Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-rails'
