@@ -4,10 +4,7 @@ endif
 
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 syntax enable
-" colorscheme soft-era
-"colorscheme gruvbox
-"let g:gruvbox_contrast_dark = 'hard'
-set background=dark    " Setting dark mode
+set background=dark
 colorscheme night-owl
 let g:airline_theme = 'deus'
 
@@ -42,11 +39,13 @@ let g:ale_fix_on_save = 1
 let g:airline#extensions#ale#enabled = 1
 let g:airline#extensions#tabline#enabled = 1
 
+" searching
 let g:ackprg = 'rg --vimgrep --smart-case --glob "!node_modules/**" --glob "!package-lock.json" --type-add "erb:*.erb" --type-add "gql:*.{gql,graphql}"'
-" -truby for search ruby files only
-"  rg --type-list
+
 map <leader>g :Ack -F ""<Left>
 
+
+" find files
 " fzf config
 "command! -bang -nargs=? -complete=dir Files
 "  \ call fzf#vim#files(<q-args>, fzf#vim#with_preview(), <bang>0)

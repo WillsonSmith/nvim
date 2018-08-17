@@ -7,24 +7,28 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'w0rp/ale'
 
 " languages
-" LanguageClient plugin
-Plug 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.sh', }
-"Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
 
+" ruby
 Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-rails'
 
+" css
 Plug 'JulesWang/css.vim'
 Plug 'cakebaker/scss-syntax.vim'
 
+" javascript
 "Plug 'pangloss/vim-javascript'
 Plug 'othree/yajs.vim'
 Plug 'othree/es.next.syntax.vim'
 Plug 'mxw/vim-jsx'
 Plug 'moll/vim-node'
 
-"Plug 'leafgarland/typescript-vim'
+" typescript
 Plug 'HerringtonDarkholme/yats.vim'
+" LanguageClient plugin
+Plug 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.sh', }
+"Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
+
 " crystal
 Plug 'rhysd/vim-crystal'
 
@@ -33,6 +37,7 @@ Plug 'jparise/vim-graphql'
 
 Plug 'kchmck/vim-coffee-script'
 
+" elixir
 Plug 'elixir-editors/vim-elixir'
 
 " syntax aides
