@@ -47,6 +47,7 @@ Plug 'aradunovic/perun.vim'
 Plug 'morhetz/gruvbox'
 Plug 'kadekillary/Turtles'
 Plug 'hzchirs/vim-material'
+Plug 'haishanh/night-owl.vim'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'

@@ -2,12 +2,13 @@ if (has("termguicolors"))
    set termguicolors
 endif
 
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 syntax enable
 " colorscheme soft-era
-colorscheme gruvbox
-let g:gruvbox_contrast_dark = 'hard'
+"colorscheme gruvbox
+"let g:gruvbox_contrast_dark = 'hard'
 set background=dark    " Setting dark mode
-
+colorscheme night-owl
 let g:airline_theme = 'deus'
 
 let g:indent_guides_enabled_on_vim_startup = 1
